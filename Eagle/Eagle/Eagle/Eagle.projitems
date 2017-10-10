@@ -13,7 +13,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\TestPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\NewTestPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
@@ -38,8 +38,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Views\TestPage.xaml.cs">
-      <DependentUpon>TestPage.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\NewTestPage.xaml.cs">
+      <DependentUpon>NewTestPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Helpers\ContactsPageCS.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\MainPage.xaml.cs">

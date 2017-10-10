@@ -2,9 +2,9 @@
 
 namespace Eagle
 {
-	public partial class TestPage : ContentPage
+	public partial class NewTestPage : ContentPage
 	{
-		public TestPage()
+		public NewTestPage()
 		{
 			InitializeComponent();
 		}

@@ -13,9 +13,9 @@ namespace Eagle
 
 			var masterPageItems = new List<MasterPageItem> ();
 			masterPageItems.Add (new MasterPageItem {
-				Title = "Test",
-				IconSource = "contacts.png",
-				TargetType = typeof(TestPage)
+				Title = "New Test",
+				IconSource = "Alcoholimetro.jpg",
+				TargetType = typeof(NewTestPage)
 			});
 			masterPageItems.Add (new MasterPageItem {
 				Title = "Prev Tests",
@@ -23,8 +23,8 @@ namespace Eagle
 				TargetType = typeof(PrevTestsPage)
 			});
 			masterPageItems.Add (new MasterPageItem {
-				Title = "About",
-				IconSource = "reminders.png",
+				Title = "About Us",
+				IconSource = "AboutUs.png",
 				TargetType = typeof(AboutPage)
 			});
 
